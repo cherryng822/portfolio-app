@@ -101,12 +101,6 @@ let resumeData = {
       url: "https://codepen.io/cherryng822/full/VwjYMjZ",
     },
     {
-      name: "Personal Portfolio",
-      description: "Wed Design on Personal Portfolio",
-      imgurl: "images/portfolio/personalportfolio.png",
-      url: "https://codepen.io/cherryng822/full/BazyVxZ",
-    },
-    {
       name: "Random Quotes",
       description: "React App for Random Quotes",
       imgurl: "images/portfolio/randomquotes.png",
@@ -117,12 +111,6 @@ let resumeData = {
       description: "React App for Markdown Previewer",
       imgurl: "images/portfolio/markdownpreviewer.png",
       url: "https://codepen.io/cherryng822/full/gOMeLRR",
-    },
-    {
-      name: "Drum Machine",
-      description: "React App for Drum Machine",
-      imgurl: "images/portfolio/drummachine.jpg",
-      url: "https://codepen.io/cherryng822/full/VwjgRRV",
     },
     {
       name: "Javascript Calculator",
@@ -136,8 +124,21 @@ let resumeData = {
       imgurl: "images/portfolio/clock.png",
       url: "https://codepen.io/cherryng822/full/abZeeaB",
     },
+    {
+      name: "Personal Portfolio",
+      description: "Wed Design on Personal Portfolio",
+      imgurl: "images/portfolio/personalportfolio.png",
+      url: "https://codepen.io/cherryng822/full/BazyVxZ",
+    },
   ],
   portfolioIllustration: [
+    {
+      name: "Chinese New Year Greetings",
+      description: "In celebration of Chinese New Year",
+      imgurl: "images/portfolio/chinesenewyear.jpg",
+      url:
+        "https://www.instagram.com/p/BfNhIZCAXuz/?utm_source=ig_web_copy_link",
+    },
     {
       name: "Last-minute tips for DSE",
       description: "Words of Encouragement for DSE students",
@@ -153,18 +154,27 @@ let resumeData = {
         "https://www.instagram.com/p/Bm3C88gjfsc/?utm_source=ig_web_copy_link",
     },
     {
-      name: "Chinese New Year",
-      description: "In celebration of Chinese New Year",
-      imgurl: "images/portfolio/chinesenewyear.jpg",
+      name: "Infographic of Classical Chinese Passage",
+      description:
+        "An easy-to-understand overview of content of one of Classicial Chinese Passages to be examined in DSE Chinese",
+      imgurl: "",
       url:
-        "https://www.instagram.com/p/BfNhIZCAXuz/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/p/CMGrZsZhGZR/?utm_source=ig_web_copy_link",
     },
     {
-      name: "What's your dream job?",
-      description: "GIF promotion",
-      imgurl: "images/portfolio/dreamjobgif.gif",
+      name: "Revision Cards Package for DSE Chinese",
+      description:
+        "Included summary of some of Classicial Chinese Passages to be examined in DSE, and habit tracker for revision",
+      imgurl: "",
       url:
-        "https://www.instagram.com/p/BjjOWDXj7lq/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/p/CNEoxfkBk6p/?utm_source=ig_web_copy_link",
+    },
+    {
+      name: "In despair?",
+      description: "Amination expressing emtional change of the author",
+      imgurl: "",
+      url:
+        "https://www.instagram.com/p/CLEvMh2DnzB/?utm_source=ig_web_copy_link",
     },
   ],
   portfolioPresentation: [
@@ -172,26 +182,26 @@ let resumeData = {
       name: "Tutorial on Basic Statistics",
       description: "Teaching material for DSE course",
       imgurl: "/images/portfolio/statisticsppt.mp4",
-      url: "https://codepen.io/cherryng822/full/eYzmEzv",
+      url: "",
     },
     {
       name: "Introduction in Johari Window",
       description: "Presentation for staff development meeting",
       imgurl: "images/portfolio/johariwindow.mp4",
-      url: "https://codepen.io/cherryng822/full/mdEyMRo",
+      url: "",
     },
     {
       name: "Seven Last Words from the Cross",
       description: "Sharing inspired by the sayings of Jesus on the cross",
       imgurl: "images/portfolio/sevenwords.mp4",
-      url: "https://codepen.io/cherryng822/full/VwjYMjZ",
+      url: "https://1drv.ms/v/s!AmsND70y8m8lhrZaAY64wshPpgocOA?e=zU1jvm",
     },
     {
       name: "Sharing on The Twelve Spies",
       description:
         "Introducing the story of the twelve spies recorded in the Book of Numbers",
       imgurl: "images/portfolio/twelvespies.mp4",
-      url: "https://codepen.io/cherryng822/full/BazyVxZ",
+      url: "https://1drv.ms/v/s!AmsND70y8m8lhrZbGA5yuE9Hkplv5A?e=Hz4KCv",
     },
   ],
   testimonials: [

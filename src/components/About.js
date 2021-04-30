@@ -4,8 +4,8 @@ class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <div id="about" className="">
-        <h1>About Me</h1>
+      <div id="about">
+        <h1 id="about-header">About Me</h1>
         <div id="about-wrapper">
           <img
             src="/images/aboutme.jpg"

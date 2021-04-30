@@ -7,7 +7,7 @@
   --atomic-tangerine: #f68e5f;
   --powder-blue: #9ed8db;
   --pussian-blue: #1d3354;
-  --step-up-6: 2.28427845em;
+  --step-up-6: 2.6089640186em;
   --step-up-5: 2em;
   --step-up-4: 1.7511em;
   --step-up-3: 1.5157em;
@@ -24,8 +24,8 @@
 #body-wrap {
   font-family: "Open Sans", sans-serif;
   line-height: 150%;
+  position: relative;
   background-image: linear-gradient(135deg, #474647, #262226);
-  padding-top: 56px;
   font-size: 2vw;
 }
 
@@ -48,9 +48,8 @@ h1 {
   line-height: 150%;
   text-align: center;
   color: #ffffff;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  background-color: #118ab2;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 h2 {
   font-size: var(--step-up-4);
@@ -96,6 +95,7 @@ p {
 /*CSS for Cover*/
 #cover {
   height: 100%;
+  margin-bottom: -56px;
 }
 
 .carousel-indicators {
@@ -112,6 +112,15 @@ p {
 }
 
 /*CSS for About*/
+#about {
+  padding-top: 56px;
+  margin-bottom: -56px;
+}
+
+#about-header {
+  background-color: #f25f5c;
+}
+
 #about-wrapper {
   width: 90%;
   padding-bottom: 30px;
@@ -139,43 +148,69 @@ p {
 }
 
 /*CSS for Portfolio*/
+#portfolio {
+  padding-top: 56px;
+}
+
+#portfolio-header {
+  background-color: rgba(31, 148, 191);
+}
+
 #portfolio-content {
   width: 90%;
   margin: auto;
-  margin-bottom: 10vh;
-  margin-top: 10vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
 }
 
-.nav-link {
+.portfolio-tab {
   font-family: "Yusei Magic", sans-serif;
   padding: 20px 32px 20px 32px;
-  color: #f25f5c;
+  color: #a9e9ff;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
-.nav-link a:hover {
-  text-decoration: #a4413e;
+.portfolio-tab a:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+  background-color: #a1a2a2;
 }
 
-.row {
-  padding: 30px;
+.tab-pane {
+  width: 95%;
+  margin: auto;
 }
 
 #portfolio-nav,
 .tab-content {
-  background-color: rgba(255, 255, 255);
+  padding-top: 1rem;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
-.card img,
-video {
+#portfolio .card {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#portfolio .card-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.card img {
   width: 100%;
+}
+
+.card-body a {
+  color: #237998;
 }
 
 /*CSS for Footer*/
 footer {
-  height: 30vh;
   background-color: #1d3354;
   color: #ffffff;
   padding-top: 30px;
+  padding-bottom: 30px;
   font-size: var(--step-down-2);
 }
 

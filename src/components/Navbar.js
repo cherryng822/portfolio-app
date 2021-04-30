@@ -7,7 +7,7 @@ class Header extends Component {
       <React.Fragment>
         <nav
           id="nav-wrap"
-          className="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom"
+          className="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom"
         >
           <a className="navbar-brand" href="#home">
             Cherry Ng&nbsp;&nbsp;
@@ -43,29 +43,10 @@ class Header extends Component {
                   About Me
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#portfolio"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <a className="nav-link" href="#portfolio">
                   Portfolio
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#website">
-                    Frontend Projects
-                  </a>
-                  <a className="dropdown-item" href="#illustration-tab">
-                    Illustrations
-                  </a>
-                  <a className="dropdown-item" href="#presentation">
-                    Presentations
-                  </a>
-                </div>
               </li>
             </ul>
           </div>

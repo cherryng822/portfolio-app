@@ -11,36 +11,11 @@ function renderCards(arr) {
   } else return [];
 }
 
-function renderVCards(arr) {
-  if (arr.length > 0) {
-    return arr.map((item, index) => <VCard key={index} item={item} />);
-  } else return [];
-}
-
 const Card = ({ item }) => {
   return (
     <div className="card col-xs-12 col-md-6 col-lg-4 p-3">
-      <div>
+      <div className="card-content">
         <img src={item.imgurl} className="item-img" alt={item.name} />
-        <div className="card-body">
-          <a href={item.url} target="_blank" rel="noreferrer">
-            <h6 className="card-title">{item.name}</h6>
-          </a>
-          <p className="card-text">{item.description}</p>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const VCard = ({ item }) => {
-  return (
-    <div className="card col-xs-12 col-md-6 col-lg-4 p-3">
-      <div>
-        <video controls>
-          <source src={item.imgurl} className="item-video" type="video/mp4" />
-          Sorry, your browser doesn't support the embedded videos:(
-        </video>
         <div className="card-body">
           <a href={item.url} target="_blank" rel="noreferrer">
             <h6 className="card-title">{item.name}</h6>
@@ -59,24 +34,21 @@ class Cards extends Component {
   }
 }
 
-class VCards extends Component {
-  render() {
-    const cards = renderVCards(this.props.cards);
-    return <div className="row">{cards}</div>;
-  }
-}
-
 class Portfolio extends Component {
   render() {
     return (
       <section>
-        <div id="portfolio-wrapper">
-          <h1>Portfolio</h1>
+        <div id="portfolio">
+          <h1 id="portfolio-header">Portfolio</h1>
           <div id="portfolio-content">
-            <ul className="nav nav-tabs" id="portfolio-nav" role="tablist">
+            <ul
+              className="nav nav-tabs nav-fill"
+              id="portfolio-nav"
+              role="tablist"
+            >
               <li className="nav-item">
                 <a
-                  className="nav-link active"
+                  className="nav-link active portfolio-tab"
                   id="website-tab"
                   data-toggle="tab"
                   href="#website"
@@ -89,7 +61,7 @@ class Portfolio extends Component {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link"
+                  className="nav-link portfolio-tab"
                   id="illustration-tab"
                   data-toggle="tab"
                   href="#illustration"
@@ -102,7 +74,7 @@ class Portfolio extends Component {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link"
+                  className="nav-link portfolio-tab"
                   id="presentation-tab"
                   data-toggle="tab"
                   href="#presentation"
@@ -137,7 +109,7 @@ class Portfolio extends Component {
                 role="tabpanel"
                 aria-labelledby="presentation-tab"
               >
-                <VCards cards={presentData} />
+                <Cards cards={presentData} />
               </div>
             </div>
           </div>

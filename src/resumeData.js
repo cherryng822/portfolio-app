@@ -85,49 +85,49 @@ let resumeData = {
     {
       name: "Tribute Page",
       description: "Wed Design on Tribute Page",
-      imgurl: "images/portfolio/tributepage.png",
+      imgurl: "/images/portfolio/tributepage.png",
       url: "https://codepen.io/cherryng822/full/eYzmEzv",
     },
     {
       name: "Survey Form",
       description: "Wed Design on Survey Form",
-      imgurl: "images/portfolio/surveyform.png",
+      imgurl: "/images/portfolio/surveyform.png",
       url: "https://codepen.io/cherryng822/full/mdEyMRo",
     },
     {
       name: "Product Landing",
       description: "Wed Design on Product Landing",
-      imgurl: "images/portfolio/productlanding.png",
+      imgurl: "/images/portfolio/productlanding.png",
       url: "https://codepen.io/cherryng822/full/VwjYMjZ",
     },
     {
       name: "Random Quotes",
       description: "React App for Random Quotes",
-      imgurl: "images/portfolio/randomquotes.png",
+      imgurl: "/images/portfolio/randomquotes.png",
       url: "https://codepen.io/cherryng822/full/LYZWyzY",
     },
     {
       name: "Markdown Previewer",
       description: "React App for Markdown Previewer",
-      imgurl: "images/portfolio/markdownpreviewer.png",
+      imgurl: "/images/portfolio/markdownpreviewer.png",
       url: "https://codepen.io/cherryng822/full/gOMeLRR",
     },
     {
       name: "Javascript Calculator",
       description: "React App for Calculator",
-      imgurl: "images/portfolio/calculator.png",
+      imgurl: "/images/portfolio/calculator.png",
       url: "https://codepen.io/cherryng822/full/vYKMpvo",
     },
     {
       name: "25+5 Clock",
       description: "React App for 25+5 Clock",
-      imgurl: "images/portfolio/clock.png",
+      imgurl: "/images/portfolio/clock.png",
       url: "https://codepen.io/cherryng822/full/abZeeaB",
     },
     {
       name: "Personal Portfolio",
       description: "Wed Design on Personal Portfolio",
-      imgurl: "images/portfolio/personalportfolio.png",
+      imgurl: "/images/portfolio/personalportfolio.png",
       url: "https://codepen.io/cherryng822/full/BazyVxZ",
     },
   ],
@@ -135,21 +135,21 @@ let resumeData = {
     {
       name: "Chinese New Year Greetings",
       description: "In celebration of Chinese New Year",
-      imgurl: "images/portfolio/chinesenewyear.jpg",
+      imgurl: "/images/portfolio/CNYGreeting.png",
       url:
         "https://www.instagram.com/p/BfNhIZCAXuz/?utm_source=ig_web_copy_link",
     },
     {
       name: "Last-minute tips for DSE",
       description: "Words of Encouragement for DSE students",
-      imgurl: "images/portfolio/lastmintips.jpg",
+      imgurl: "/images/portfolio/lastmintips.jpg",
       url:
         "https://www.instagram.com/p/B_o_575h4x8/?utm_source=ig_web_copy_link",
     },
     {
       name: "Course Promotion",
       description: "Promotion for courses provided by tutorial centre",
-      imgurl: "images/portfolio/coursepromotion.png",
+      imgurl: "/images/portfolio/coursepromotion.png",
       url:
         "https://www.instagram.com/p/Bm3C88gjfsc/?utm_source=ig_web_copy_link",
     },
@@ -157,7 +157,7 @@ let resumeData = {
       name: "Infographic of Classical Chinese Passage",
       description:
         "An easy-to-understand overview of content of one of Classicial Chinese Passages to be examined in DSE Chinese",
-      imgurl: "",
+      imgurl: "/images/portfolio/CSueRevisionInforgraphic.png",
       url:
         "https://www.instagram.com/p/CMGrZsZhGZR/?utm_source=ig_web_copy_link",
     },
@@ -165,42 +165,42 @@ let resumeData = {
       name: "Revision Cards Package for DSE Chinese",
       description:
         "Included summary of some of Classicial Chinese Passages to be examined in DSE, and habit tracker for revision",
-      imgurl: "",
+      imgurl: "/images/portfolio/DSEChiRevisionCard.jpg",
       url:
         "https://www.instagram.com/p/CNEoxfkBk6p/?utm_source=ig_web_copy_link",
     },
     {
       name: "In despair?",
-      description: "Amination expressing emtional change of the author",
-      imgurl: "",
+      description: "Illustration inspired by a Chinese classical poem",
+      imgurl: "/images/portfolio/SingSingManReflection.png",
       url:
         "https://www.instagram.com/p/CLEvMh2DnzB/?utm_source=ig_web_copy_link",
     },
   ],
   portfolioPresentation: [
     {
-      name: "Tutorial on Basic Statistics",
-      description: "Teaching material for DSE course",
-      imgurl: "/images/portfolio/statisticsppt.mp4",
-      url: "",
+      name: "Tutorial on Data Handling and Sampling Methods",
+      description: "Explanation on different types of sampling methods",
+      imgurl: "/images/portfolio/stathandlingppt.png",
+      url: "https://1drv.ms/v/s!AmsND70y8m8lhrZq6174WKHm3uI0Zw?e=KWYdmg",
     },
     {
-      name: "Introduction in Johari Window",
+      name: "Introduction to Johari Window",
       description: "Presentation for staff development meeting",
-      imgurl: "images/portfolio/johariwindow.mp4",
-      url: "",
+      imgurl: "/images/portfolio/johariwindow.png",
+      url: "https://1drv.ms/v/s!AmsND70y8m8lhrZpvQf0XHqzT1uRPA?e=CaUHkR",
     },
     {
       name: "Seven Last Words from the Cross",
       description: "Sharing inspired by the sayings of Jesus on the cross",
-      imgurl: "images/portfolio/sevenwords.mp4",
+      imgurl: "/images/portfolio/sevenwords.png",
       url: "https://1drv.ms/v/s!AmsND70y8m8lhrZaAY64wshPpgocOA?e=zU1jvm",
     },
     {
       name: "Sharing on The Twelve Spies",
       description:
         "Introducing the story of the twelve spies recorded in the Book of Numbers",
-      imgurl: "images/portfolio/twelvespies.mp4",
+      imgurl: "/images/portfolio/twelvespies.png",
       url: "https://1drv.ms/v/s!AmsND70y8m8lhrZbGA5yuE9Hkplv5A?e=Hz4KCv",
     },
   ],

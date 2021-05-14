@@ -15,7 +15,11 @@ const Card = ({ item }) => {
   return (
     <div className="card col-xs-12 col-md-6 col-lg-4 p-3">
       <div className="card-content">
-        <img src={item.imgurl} className="item-img" alt={item.name} />
+        <img
+          src={`${process.env.PUBLIC_URL + item.imgurl}`}
+          className="item-img"
+          alt={item.name}
+        />
         <div className="card-body">
           <a href={item.url} target="_blank" rel="noreferrer">
             <h6 className="card-title">{item.name}</h6>

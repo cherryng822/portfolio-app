@@ -8,7 +8,8 @@ class About extends Component {
         <h1 id="about-header">About Me</h1>
         <div id="about-wrapper">
           <img
-            src="/images/aboutme.jpg"
+            id="about-pic"
+            src={`${process.env.PUBLIC_URL + "/images/aboutme.png"}`}
             alt="infographic of self introduction"
             width="100%"
           />

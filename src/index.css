@@ -128,9 +128,13 @@ p {
   color: #ffffff;
 }
 
+#about-pic {
+  padding-top: 20px;
+}
+
 #resume {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 #education,
@@ -199,6 +203,7 @@ p {
 
 .card img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .card-body a {
